@@ -7,7 +7,7 @@ namespace GetAnimeList
         /// <summary>
         /// カレントディレクトリ
         /// </summary>
-        private readonly string _currentDirectory = Path.GetDirectoryName(Environment.ProcessPath);
+        private readonly string _currentDirectory = AppContext.BaseDirectory;
 
         /// <summary>
         /// 生成Excelファイル名
