@@ -12,7 +12,7 @@ namespace GetAnimeList
         /// <summary>
         /// 生成Excelファイル名
         /// </summary>
-        private readonly string _animeListFileName = "AnimeLlst.xlsx";
+        private readonly string _animeListFileName = "AnimeList.xlsx";
 
         /// <summary>
         /// 更新ログファイル名
